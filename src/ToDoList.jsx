@@ -5,6 +5,9 @@
 // 4. a way to rearrange items
 // 5. a way to delete items from that array
 
+
+//Arrow Functions are used multiple times in this  
+
 //imports the useState Hook from react.
 // useState accepts an initial state
 
@@ -88,7 +91,7 @@ function ToDoList() {
         </button>
       </div>
       <ol>
-        {/* dynamic variable that lists the tasks inside the array task in order of its index location */}
+        {/* dynamic variable that lists the tasks inside the array task in order of its index location inside a list item element <li> */}
         {tasks.map((task, index) => (
           <li key={index}>
             <span className="text"> {task} </span>
